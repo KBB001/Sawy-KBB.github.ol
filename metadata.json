@@ -1,0 +1,12 @@
+{
+  "name": "Remix: Sway Browser",
+  "description": "Fast and private mobile browser for Android with built-in ad blocking, tracking protection, and high performance.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
