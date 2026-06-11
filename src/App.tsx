@@ -521,7 +521,7 @@ export default function App() {
               <li><a href="#features" className="hover:text-indigo-600 transition">Преимущества движения</a></li>
               <li><a href="#comparison" className="hover:text-indigo-600 transition">Замеры бенчмарков</a></li>
               <li><a href="#faq" className="hover:text-indigo-600 transition">Инструкция по APK</a></li>
-              <li><a href="https://github.com" className="hover:text-indigo-600 transition" target="_blank" rel="noreferrer">GitHub репозиторий</a></li>
+              <li><a href="https://github.com/KBB001/Sawy-KBB.github.ol" className="hover:text-indigo-600 transition" target="_blank" rel="noreferrer">GitHub репозиторий</a></li>
             </ul>
           </div>
 

@@ -1197,14 +1197,12 @@ class BrowserViewModel(application: Application) : AndroidViewModel(application)
 
                 // List of potential update URLs to scan dynamically in order of priority (handles multiple repos / capitalizations)
                 val urlsToTry = listOf(
-                    "https://raw.githubusercontent.com/RinKBB/Sway-Browser/updates/update.json",
-                    "https://raw.githubusercontent.com/RinKBB/sway-browser-updates/main/update.json",
-                    "https://raw.githubusercontent.com/bekamatay01/sway-browser/updates/update.json",
-                    "https://raw.githubusercontent.com/bekamatay01/sway-browser-updates/main/update.json"
+                    "https://raw.githubusercontent.com/KBB001/Sawy-KBB.github.ol/updates/update.json",
+                    "https://raw.githubusercontent.com/KBB001/Sawy-KBB.github.ol/main/update.json"
                 )
 
                 var jsonBody: String? = null
-                var finalApkUrl = "https://raw.githubusercontent.com/RinKBB/Sway-Browser/updates/app-debug.apk"
+                var finalApkUrl = "https://raw.githubusercontent.com/KBB001/Sawy-KBB.github.ol/updates/app-debug.apk"
 
                 for (url in urlsToTry) {
                     try {
@@ -1303,7 +1301,7 @@ class BrowserViewModel(application: Application) : AndroidViewModel(application)
                         hasUpdate = hasFallbackUpdate,
                         latestVersionName = "2.1.$fallbackVersionCode",
                         latestVersionCode = fallbackVersionCode,
-                        apkUrl = "https://raw.githubusercontent.com/RinKBB/Sway-Browser/updates/app-debug.apk",
+                        apkUrl = "https://raw.githubusercontent.com/KBB001/Sawy-KBB.github.ol/updates/app-debug.apk",
                         changeLog = "Критическое обновление Sway Browser: исправление ошибок фонового режима, блокировщика рекламы, улучшение производительности и стабильности!"
                     )
                 } else {
